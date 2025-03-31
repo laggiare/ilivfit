@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: hsl(0, 0%, 10%);
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    background-image: url('ilivfit.PNG');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.username {
+    font-size: 18px;
+    margin: 10px 0 20px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.button {
+    display: block;
+    padding: 15px;
+    margin: 10px 0;
+    background: linear-gradient(45deg, hsl(195, 100%, 50%), hsl(330, 100%, 65%));
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: background 0.3s;
+    font-weight: 700;
+}
+
+.button:hover {
+    background: linear-gradient(45deg, hsl(195, 100%, 40%), hsl(330, 100%, 55%));
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons i {
+    font-size: 30px;
+    color: hsl(0, 0%, 20%);
+}
+
+/* Custom hover colors for each icon */
+.social-icons a:hover .fa-instagram {
+    color: hsl(330, 100%, 65%); /* Neon pink for Instagram */
+}
+
+.social-icons a:hover .fa-tiktok {
+    color: hsl(195, 100%, 50%); /* Neon blue for TikTok */
+}
+
+.social-icons a:hover .fa-youtube {
+    color: hsl(0, 100%, 50%); /* Red for YouTube */
+}
+
+.social-icons a:hover .fa-facebook {
+    color: hsl(217, 100%, 50%); /* Blue for Facebook */
+}
