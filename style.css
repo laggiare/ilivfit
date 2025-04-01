@@ -39,7 +39,7 @@ body {
     background: linear-gradient(45deg, hsl(195, 100%, 50%), hsl(330, 100%, 65%));
     color: white;
     text-decoration: none;
-    border-radius: 25px;
+    border-radius: 15px;
     font-size: 16px;
     transition: background 0.3s;
     font-weight: 700;
